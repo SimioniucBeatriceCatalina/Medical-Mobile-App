@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:background="#e3e7eb">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="263dp"
+        android:layout_height="128dp"
+
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/loggo"
+        app:layout_constraintBottom_toTopOf="@+id/btnstart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="236dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="63dp"
+        android:text="HeartMed"
+        android:textSize="30dp"
+        app:fontFamily="@font/cutive"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/txtinfor"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="459dp"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/txttelefon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgemail"
+        app:layout_constraintTop_toBottomOf="@+id/txtinfor"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txttelefon"
+        android:layout_width="305dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="13dp"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgeadresa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgetelefon"
+        app:layout_constraintTop_toBottomOf="@+id/txtemail" />
+
+    <TextView
+        android:id="@+id/txtadresa"
+        android:layout_width="322dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="225dp"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgeadresa"
+        app:layout_constraintTop_toBottomOf="@+id/txttelefon" />
+
+    <ImageView
+        android:id="@+id/imgemail"
+        android:layout_width="74dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/emeill"
+        app:layout_constraintBottom_toTopOf="@+id/imgetelefon"
+        app:layout_constraintEnd_toStartOf="@+id/txtemail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtinfor" />
+
+    <ImageView
+        android:id="@+id/imgetelefon"
+        android:layout_width="74dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="9dp"
+        android:src="@drawable/phone"
+        app:layout_constraintBottom_toTopOf="@+id/imgeadresa"
+        app:layout_constraintEnd_toStartOf="@+id/txttelefon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgemail" />
+
+    <ImageView
+        android:id="@+id/imgeadresa"
+        android:layout_width="85dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="210dp"
+        android:src="@drawable/adress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtadresa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgetelefon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

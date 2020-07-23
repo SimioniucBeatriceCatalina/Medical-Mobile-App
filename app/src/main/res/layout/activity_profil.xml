@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profil"
+    android:background="#78b5d4"
+
+    >
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+
+        android:id="@+id/imageprofil"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageedit"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:layout_marginBottom="39dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/p1"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageprofil"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageqr"-->
+<!--        android:layout_width="44dp"-->
+<!--        android:layout_height="49dp"-->
+<!--        android:layout_marginStart="5dp"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:layout_marginTop="193dp"-->
+<!--        android:layout_marginEnd="36dp"-->
+<!--        android:layout_marginRight="36dp"-->
+<!--        android:layout_marginBottom="49dp"-->
+<!--        android:background="@android:color/transparent"-->
+
+<!--        android:src="@drawable/rq"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/cardView2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageedit"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView2"
+        android:layout_width="318dp"
+        android:layout_height="275dp"
+
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="165dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageedit">
+
+
+
+
+        <ImageButton
+            android:id="@+id/imageeditnume"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="38dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/p2" />
+
+        <ImageButton
+            android:id="@+id/imageeditparola"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="140dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/p2" />
+        <ImageButton
+            android:id="@+id/imageedittelefon"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="170dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/p2" />
+        <ImageButton
+            android:id="@+id/imageeditadresa"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="203dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/p2" />
+        <TextView
+            android:id="@+id/tvnumeprofil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="40dp"
+            android:text="Nume"
+            android:textColor="#3c7997"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvparolaprofil1"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="142dp" />
+        <TextView
+            android:id="@+id/tvtelefonprofil1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="172dp" />
+        <TextView
+            android:id="@+id/tvadresaprofil1"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="203dp" />
+
+        <TextView
+            android:id="@+id/tvprenumeprofil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="75dp"
+            android:text="Prenume"
+            android:textColor="#3c7997"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvemailprofil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="108dp"
+            android:text="Email"
+            android:textColor="#3c7997"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvparolaprofil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="142dp"
+            android:text="Parola"
+            android:textColor="#3c7997"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvtelefonprofil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="172dp"
+            android:text="Numar telefon"
+            android:textColor="#3c7997"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvadresaprofil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="203dp"
+            android:text="Adresa"
+            android:textColor="#3c7997"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvprenumeprofil1"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="75dp" />
+
+        <TextView
+            android:id="@+id/tvnumeprofil1"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/tvemailprofil1"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="108dp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "603651212177",
+    "firebase_url": "https://heartmed-5f1e3.firebaseio.com",
+    "project_id": "heartmed-5f1e3",
+    "storage_bucket": "heartmed-5f1e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603651212177:android:7b61628d7423192eced030",
+        "android_client_info": {
+          "package_name": "com.example.heartmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603651212177-osvsvrnkt3epk6cqbbv400t0qthd0ak8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heartmed",
+            "certificate_hash": "e832b6c98e7fd21c13c46afabc698a078378549f"
+          }
+        },
+        {
+          "client_id": "603651212177-34err5inas71f4ivqrco8oek8hvo94pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiy5DB1C35oF_J5ONEjEzagp_aOxv2jFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603651212177-34err5inas71f4ivqrco8oek8hvo94pe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

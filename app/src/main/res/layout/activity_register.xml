@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="#78b5d4"
+
+    >
+
+
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="350dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginBottom="184dp"-->
+<!--        android:background="@drawable/transparent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editText5" />-->
+
+    <RadioGroup
+        android:id="@+id/myradioGroup"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="90dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/btninregistrare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etrConfparola">
+
+        <RadioButton
+            android:id="@+id/radiomedic"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="Medic"
+            app:layout_constraintEnd_toStartOf="@+id/radioButton2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etrConfparola" />
+
+        <RadioButton
+            android:id="@+id/radiopacient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Pacient" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="221dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="45dp"
+        android:text="Înregistrare"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/cutive"
+        app:layout_constraintBottom_toTopOf="@+id/eteNume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etrEmail"
+        android:layout_width="268dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="9dp"
+        android:hint="Email"
+        app:layout_constraintBottom_toTopOf="@+id/etrParola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etrPrenume" />
+
+    <EditText
+        android:id="@+id/eteNume"
+        android:layout_width="268dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="2dp"
+        android:hint="Nume"
+        app:layout_constraintBottom_toTopOf="@+id/etrPrenume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/imgd"-->
+<!--        android:layout_width="85dp"-->
+<!--        android:layout_height="84dp"-->
+<!--        android:layout_marginStart="55dp"-->
+<!--        android:layout_marginLeft="55dp"-->
+<!--        android:layout_marginTop="408dp"-->
+<!--        android:layout_marginEnd="204dp"-->
+<!--        android:layout_marginRight="204dp"-->
+<!--        android:layout_marginBottom="55dp"-->
+<!--        android:src="@drawable/doctor1"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageView2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageView2"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgp"-->
+<!--        android:layout_width="85dp"-->
+<!--        android:layout_height="84dp"-->
+<!--        android:layout_marginStart="48dp"-->
+<!--        android:layout_marginLeft="48dp"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:layout_marginEnd="55dp"-->
+<!--        android:layout_marginRight="55dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:src="@drawable/gg"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/imageView2"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imgd"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editText4" />-->
+
+
+    <EditText
+        android:id="@+id/etrPrenume"
+        android:layout_width="268dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Prenume"
+        android:outlineSpotShadowColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/etrEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eteNume" />
+
+    <EditText
+        android:id="@+id/etrParola"
+        android:layout_width="268dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:hint="Parolă"
+        android:password="true"
+        android:outlineSpotShadowColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/etrConfparola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etrEmail" />
+
+    <Button
+        android:id="@+id/btninregistrare"
+        android:layout_width="182dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/button_shape1"
+        android:elevation="10dp"
+        android:text="Înregistrează-te"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/etrConfparola"
+        android:layout_width="268dp"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Confirmă parola"
+        android:password="true"
+        android:outlineSpotShadowColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etrParola" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="82dp"
+        android:text="Ai deja cont?"
+        android:textColor="#3c7997"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtConectare"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btninregistrare"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtConectare"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="70dp"
+        android:text="Conecteaza-te"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/btninregistrare" />
+
+    <!--    <RadioGroup-->
+<!--        android:id="@+id/myradioGroup"-->
+<!--        android:layout_width="346dp"-->
+<!--        android:layout_height="161dp"-->
+<!--        android:layout_marginStart="5dp"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:layout_marginEnd="45dp"-->
+<!--        android:layout_marginRight="45dp"-->
+<!--        android:layout_marginBottom="19dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/btninregistrare"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.87"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/etrConfparola">-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radiomedic"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="145dp"-->
+<!--            android:layout_marginStart="70dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            android:drawableTop="@drawable/dio"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Medic"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/radioButton2"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/etrConfparola" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radiopacient"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="-10dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:drawableTop="@drawable/gg"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Pacient" />-->
+<!--    </RadioGroup>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

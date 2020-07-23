@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IstoricConsultatii"
+    android:background="#e3e7eb">
+
+    <Button
+        android:id="@+id/buttonAdauga"
+        android:layout_width="281dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/button_shape2"
+        android:elevation="22dp"
+        android:text="Adauga o consultatie"
+        android:textColor="#e3e7eb"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvtrecut" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="106dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="274dp"
+        android:text="Trecute"
+        android:textColor="#1B4079"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/cutive"
+        app:layout_constraintBottom_toTopOf="@+id/lvtrecut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvprezent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="114dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="265dp"
+        android:text="Viitoare"
+        android:textColor="#1B4079"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/cutive"
+        app:layout_constraintBottom_toTopOf="@+id/lvprezent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ListView
+        android:id="@+id/lvtrecut"
+        android:layout_width="338dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="74dp"
+
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="23dp"
+        android:background="#e3e7eb"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAdauga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ListView
+        android:id="@+id/lvprezent"
+        android:layout_width="338dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="55dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="22dp"
+        android:background="#e3e7eb"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="377dp"
+        android:layout_height="100dp"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="12dp"
+
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/kkr"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="200dp"
+        android:text="Consultatii"
+        android:textColor="#1B4079"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/cutive"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/returnmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="46dp"
+        android:text="Meniu principal"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAdauga" />
+</androidx.constraintlayout.widget.ConstraintLayout>

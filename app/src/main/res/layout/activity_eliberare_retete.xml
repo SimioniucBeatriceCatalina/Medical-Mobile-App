@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EliberareRetete"
+    >
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="64dp"
+        android:text="Rețetă medicală"
+        android:textColor="#3c7997"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/cutive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtnumepac"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Nume pacient"
+        app:layout_constraintBottom_toTopOf="@+id/txtprenumepac"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/txtprenumepac"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="181dp"
+        android:hint="Prenume pacient"
+        app:layout_constraintBottom_toTopOf="@+id/txtdenmedicamentt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnumepac" />
+
+    <EditText
+        android:id="@+id/txtdenmedicamentt"
+        android:layout_width="233dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="148dp"
+        android:hint="Denumire medicament"
+        app:layout_constraintBottom_toTopOf="@+id/txtcmedy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtprenumepac" />
+
+    <EditText
+        android:id="@+id/txtobservatiimed"
+        android:layout_width="233dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Observatii"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcmedy" />
+
+    <EditText
+        android:id="@+id/txtcmedy"
+        android:layout_width="233dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="148dp"
+        android:hint="Concentratie"
+        app:layout_constraintBottom_toTopOf="@+id/txtobservatiimed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdenmedicamentt" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="61dp"
+        android:background="@drawable/button_shape8"
+        android:text="Finalizeaza reteta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="107dp"
+        android:background="@drawable/button_shape8"
+        android:text="Adauga medicament"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtobservatiimed" />
+</androidx.constraintlayout.widget.ConstraintLayout>

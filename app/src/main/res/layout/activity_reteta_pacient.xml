@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RetetaPacient">
+
+    <!--    <TextView-->
+<!--        android:id="@+id/tvdataeliberare"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="30dp"-->
+
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="175dp"-->
+<!--        android:layout_marginBottom="609dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/textView15"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView12" />-->
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="21dp"
+        android:text="Rețetă curentă"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/cutive"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/textView15"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:text="Data eliberarii"
+        app:layout_constraintBottom_toTopOf="@+id/lvmedicamentee"
+        app:layout_constraintEnd_toStartOf="@+id/tvdataeliberare"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ListView
+        android:id="@+id/lvmedicamentee"
+        android:layout_width="383dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/lvmedicamentee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

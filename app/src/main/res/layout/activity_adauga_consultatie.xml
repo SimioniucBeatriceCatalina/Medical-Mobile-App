@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdaugaConsultatie"
+    android:background="#e3e7eb">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="549dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/init"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvora"
+        android:layout_width="131dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginRight="248dp"
+        android:text="Ore disponibile"
+        android:textColor="#1B4079"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btno1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btndate" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_shape6"
+        android:text="Salveaza"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/btno1"
+        android:layout_width="81dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/button_shape4"
+        android:elevation="22dp"
+        android:text="9:30"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btno5"
+        app:layout_constraintEnd_toStartOf="@+id/btno3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvora" />
+
+    <Button
+        android:id="@+id/btndate"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginEnd="291dp"
+        android:layout_marginRight="270dp"
+        android:background="@drawable/button_shape6"
+        android:elevation="22dp"
+        android:text="Alege data "
+        android:textColor="#ffffff"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/btno3"
+        android:layout_width="81dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+
+        android:background="@drawable/button_shape4"
+        android:elevation="100dp"
+        android:text="10:30"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btno6"
+        app:layout_constraintEnd_toStartOf="@+id/btno2"
+        app:layout_constraintStart_toEndOf="@+id/btno1"
+        app:layout_constraintTop_toBottomOf="@+id/tvalarma" />
+
+    <TextView
+        android:id="@+id/tvdata"
+        android:layout_width="109dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="45dp"
+        android:background="#e3e7eb"
+        android:textColor="#1B4079"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvalarma"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="118dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="17dp"
+        android:text="Data"
+        android:textColor="#1B4079"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btndate"
+        app:layout_constraintEnd_toStartOf="@+id/tvdata"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <Button
+        android:id="@+id/btno5"
+        android:layout_width="81dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/button_shape4"
+        android:elevation="22dp"
+        android:text="12:30"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnadd"
+        app:layout_constraintEnd_toStartOf="@+id/btno6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btno1" />
+
+    <Button
+        android:id="@+id/btno6"
+        android:layout_width="81dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="28dp"
+
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/button_shape4"
+        android:elevation="22dp"
+        android:text="13:30"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnadd"
+        app:layout_constraintEnd_toStartOf="@+id/btno4"
+        app:layout_constraintStart_toEndOf="@+id/btno5"
+        app:layout_constraintTop_toBottomOf="@+id/btno3" />
+
+    <Button
+        android:id="@+id/btno4"
+        android:layout_width="81dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/button_shape4"
+        android:elevation="22dp"
+        android:text="14:30"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnadd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btno6"
+        app:layout_constraintTop_toBottomOf="@+id/btno2" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="369dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvdata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imagedoct"
+            android:layout_width="90dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="270dp"
+            android:layout_marginBottom="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tvnumemedd"-->
+        <!--            android:layout_width="2dp"-->
+        <!--            android:layout_height="31dp"-->
+        <!--            android:layout_marginTop="24dp"-->
+        <!--            android:layout_marginEnd="1dp"-->
+        <!--            android:layout_marginBottom="81dp"-->
+        <!--            android:textSize="17dp"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toStartOf="@+id/tvpremedd"-->
+        <!--            app:layout_constraintHorizontal_bias="0.506"-->
+        <!--            app:layout_constraintStart_toEndOf="@+id/textView11"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="0.0" />-->
+
+        <TextView
+            android:id="@+id/tvpremeddd"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="81dp"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvalarma"
+        android:layout_width="131dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginBottom="7dp"
+        android:background="#e3e7eb"
+        android:textColor="#D81B60"
+        app:layout_constraintBottom_toTopOf="@+id/btno3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvora"
+        app:layout_constraintTop_toBottomOf="@+id/tvdata" />
+
+    <Button
+        android:id="@+id/btno2"
+        android:layout_width="81dp"
+        android:layout_height="42dp"
+
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/button_shape4"
+        android:elevation="20dp"
+        android:text="11:30"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btno4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btno3"
+        app:layout_constraintTop_toBottomOf="@+id/tvalarma" />
+</androidx.constraintlayout.widget.ConstraintLayout>

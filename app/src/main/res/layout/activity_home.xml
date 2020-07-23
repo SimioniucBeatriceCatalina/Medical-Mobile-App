@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#ffffff"
+
+   >
+
+
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="167dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="4dp"
+        android:elevation="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ii" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="517dp"
+        android:layout_marginTop="156dp"
+        android:src="@drawable/mk" />
+
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="285dp"
+        android:src="@drawable/uu" />
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/fff" />
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="285dp"
+        android:src="@drawable/qq" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="347dp"
+        android:text="Dosar medical" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="287dp"
+        android:layout_marginTop="460dp"
+        android:text="Medici" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="347dp"
+        android:text="Consultatii" />
+
+<ImageView
+    android:layout_width="83dp"
+    android:layout_height="66dp"
+    android:layout_marginTop="390dp"
+    android:layout_marginLeft="25dp"
+    android:src="@drawable/information"
+
+    />
+    <ImageView
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/stethoscope"
+
+        />
+    <Button
+        android:id="@+id/btnservicii"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="490dp"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/user"
+
+        />
+
+    <ImageView
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="492dp"
+        android:src="@drawable/rate"
+
+        />
+    <Button
+        android:id="@+id/btngrafic"
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="500dp"
+        android:background="@android:color/transparent"
+
+        />
+    <Button
+        android:id="@+id/btnprofil"
+        android:layout_width="120dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="400dp"
+        android:background="@android:color/transparent" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="450dp"
+        android:text="Profil" />
+    <Button
+        android:id="@+id/btnmedicament"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="28dp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/btndosar"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="285dp"
+        android:background="@android:color/transparent"
+
+        />
+    <Button
+        android:id="@+id/btncons"
+        android:layout_width="83dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="285dp"
+        android:background="@android:color/transparent"
+
+        />
+    <Button
+        android:id="@+id/btnmedici"
+        android:layout_width="115dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="390dp"
+        android:background="@android:color/transparent"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="40dp"
+        android:text="Informatii" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="545dp"
+        android:text="Indici cardiaci" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="549dp"
+        android:text="Servicii medicale" />
+
+    <TextView
+        android:id="@+id/txtdeconectare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="672dp"
+        android:layout_marginLeft="18dp"
+        android:textStyle="bold"
+        android:text="Deconectare" />
+
+
+</RelativeLayout>

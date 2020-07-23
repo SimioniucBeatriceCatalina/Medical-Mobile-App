@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="40dp"
+    android:background="@drawable/shape">
+
+
+    <TextView
+        android:id="@+id/txtdata"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#3c7997"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtmedic"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#3c7997"
+        android:text="Profesor Universitar Dr. Prundea Adnana"/>
+
+    <TextView
+        android:id="@+id/txtsimptome1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simptome:"
+        android:textColor="#3c7997"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+       />
+    <TextView
+        android:id="@+id/txtsimptome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c7997"
+        android:layout_marginLeft="6dp"
+      />
+    <TextView
+        android:id="@+id/txtdiagnostic1"
+        android:layout_width="match_parent"
+        android:textColor="#3c7997"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="6dp"
+        android:text="Diagnostic:" />
+    <TextView
+        android:id="@+id/txtdiagnostic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c7997"
+        android:layout_marginLeft="6dp"
+         />
+
+    <TextView
+        android:id="@+id/txtrecomandari1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#3c7997"
+        android:text="Recomandari:" />
+
+    <TextView
+        android:id="@+id/txtrecomandari"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:textColor="#3c7997"
+        android:layout_height="wrap_content"
+         />
+</LinearLayout>
